@@ -39,12 +39,12 @@
  
  <appender name="fileAppender" class="org.apache.log4j.rolling.RollingFileAppender">
  
-   <param name="File" value="SDRLOG//SDRsftpAppToWeb.log" />
+   <param name="File" value="log//Downloadandupload.log" />
     <param name="threshold" value="debug"/>
      <param name="immediateFlush" value="true"/>
     <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
       
-        <param name="FileNamePattern" value="SDRLOG//GZ//SDRsftpAppToWeb.%d{yyyy-MM-dd}.log.gz" />
+        <param name="FileNamePattern" value="log//Downloadandupload.%d{yyyy-MM-dd}.log.gz" />
         
     </rollingPolicy>
     <layout class="org.apache.log4j.PatternLayout">
